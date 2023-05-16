@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/node,windows,linux,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,windows,linux,macos
 
@@ -70,6 +69,7 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+coverage_e2e
 *.lcov
 
 # nyc test coverage
@@ -121,6 +121,7 @@ web_modules/
 # dotenv environment variables file
 .env
 .env.test
+.env.e2e
 .env.production
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -195,5 +196,7 @@ $RECYCLE.BIN/
 postgres_data
 mysql_data
 .vscode
+
+/coverageE2e
 
 # End of https://www.toptal.com/developers/gitignore/api/node,windows,linux,macos
